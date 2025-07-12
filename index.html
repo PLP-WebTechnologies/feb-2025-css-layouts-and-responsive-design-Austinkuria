@@ -10,26 +10,73 @@
 
 <body>
     <nav class="navbar">
-        <div class="logo">MySite</div>
+        <div class="logo">CSS Mastery</div>
         <ul class="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
     <main class="container">
         <section class="content">
-            <h1>Welcome to Responsive Layouts</h1>
-            <p>This page demonstrates Flexbox/Grid layouts and responsive design using media queries.</p>
+            <h1 id="home">Modern CSS Layouts & Responsive Design</h1>
+            <p>
+                Discover how to build beautiful, flexible, and responsive web layouts using the latest CSS techniques.
+                This demo showcases the power of Flexbox and Grid, along with media queries for seamless experiences
+                across devices.
+            </p>
+            <section id="about">
+                <h2>About This Project</h2>
+                <p>
+                    This project is designed to help you master modern CSS layout systems. You'll learn how to create
+                    visually appealing and adaptable web pages that look great on any screen size.
+                </p>
+            </section>
+            <section id="services">
+                <h2>What You'll Learn</h2>
+                <ul>
+                    <li>How to use <strong>Flexbox</strong> for flexible layouts</li>
+                    <li>How to implement <strong>CSS Grid</strong> for complex designs</li>
+                    <li>How to write <strong>media queries</strong> for responsiveness</li>
+                    <li>Best practices for alignment, spacing, and structure</li>
+                </ul>
+            </section>
+            <section id="contact">
+                <h2>Contact & Resources</h2>
+                <p>
+                    Have questions or want to learn more? Connect with us:
+                </p>
+                <ul>
+                    <li>Email: <a href="mailto:cssmastery@example.com">cssmastery@example.com</a></li>
+                    <li>GitHub: <a
+                            href="https://github.com/PLP-WebTechnologies/feb-2025-css-layouts-and-responsive-design-Austinkuria"
+                            target="_blank">Project Repository</a></li>
+                </ul>
+            </section>
         </section>
         <aside class="sidebar">
-            <h2>Sidebar</h2>
-            <p>Additional content or links can go here.</p>
+            <h2>Quick Tips</h2>
+            <ul>
+                <li>Use <strong>display: flex</strong> or <strong>display: grid</strong> for layout containers.</li>
+                <li>Combine <strong>gap</strong>, <strong>align-items</strong>, and <strong>justify-content</strong> for
+                    perfect alignment.</li>
+                <li>Test your design on different devices and screen sizes.</li>
+                <li>Keep your CSS organized and use comments for clarity.</li>
+            </ul>
+            <h3>Useful Links</h3>
+            <ul>
+                <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">Flexbox Guide</a>
+                </li>
+                <li><a href="https://css-tricks.com/snippets/css/complete-guide-grid/" target="_blank">Grid Guide</a>
+                </li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries"
+                        target="_blank">Media Queries</a></li>
+            </ul>
         </aside>
     </main>
     <footer class="footer">
-        &copy; 2025 MySite. All rights reserved.
+        &copy; 2025 CSS Mastery. All rights reserved.
     </footer>
 </body>
 
